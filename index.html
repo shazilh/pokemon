@@ -9,26 +9,23 @@
       <label>Nombre del Pokemon</label><input type=text id="nombrePokemon">
       <label>Color del Pokemon</label><input type=text id="colorPokemon">
       <label>Puntos de Ataque</label><input type=text id="puntosAtaque">
-
-      <section id="listaPokemons">
-      </section>
+      <input type=button id="meterPokemons" onclick="crearPokemon()" value="Meter"></button>
       <br>
-      <button type="button" id="crearPokemon" onclick="crearPokemon()" >crear Pokemones</button>
       <br>
       <br>
     <select>
       <br>
       <br>
-       <option value="" id="pokemonOp1">Pokemon</option>
+       <option  id="pokemonOp1"></option>
     </select>
-    <label>CONTRA</label>
+    <label>V/S</label>
     <select>
-       <option value="" id="pokemonOp2">Pokemon</option>
+       <option  id="pokemonOp2"></option>
     </select>
     <br>
     <br>
-    <input type=button id="pelear" value="Pelear">
-
+    <input type=button id="pelear" value="Pelear"></button>
+    <section id="mostrarSalud"></section>
     </div>
     <br>
     <br>
